@@ -1,9 +1,7 @@
-# Version 1
+# Version 2
 
-## Admin Participants Controls
+## Added the integration of Email with the team participents and projectManager
 
-- Admin can Update and Delete the participants.
-- Admin can see all the teams which a specific participant leads.
-- Admin can see all the teams in which the participant is amung the members.
-- Admin can see the ptojects assigned to the team.
-- Admin can see all the Tasks assigned with project to a Team.
+- I have implemented the complete email integration with the team participents and projectManager Section
+- All the routes and templates of the User are used in Project Manager and the team Participants
+- Only change in the Profile page of the Project Manager and the Profile page of the team Participents
