@@ -147,6 +147,18 @@ To send emails from your custom domain (e.g., `you@yourdomain.com`) using Resend
 5. Combine all thsese in one file.
 
 - src/app/api/adminData/login_admin/route.ts
+  
+6. Routes and pages for all thse files.
+
+- src/app/api/adminData/forgot-password/route.ts
+- src/app/api/adminData/profile/change-password/route.ts
+- src/app/api/adminData/profile/update-info/route.ts
+- src/app/api/adminData/reset-password/route.ts
+
+- src/app/adminData/ForgotPasswordAdmin/page.tsx
+- src/app/adminData/ResetPassword/page.tsx
+- src/app/adminData/VerificationEmailSent/page.tsx
+- src/app/adminData/Verify-email/page.tsx
 
 ## Version 1
 
@@ -180,6 +192,19 @@ To send emails from your custom domain (e.g., `you@yourdomain.com`) using Resend
 5. Combine all thsese in one file.
 
 - src/app/api/userData/login_user/route.ts
+  
+6. Routes and pages for all thse files.
+
+- src/app/api/userData/forgot-password/route.ts
+- src/app/api/userData/profile/change-password/route.ts
+- src/app/api/userData/profile/update-info/route.ts
+- src/app/api/userData/reset-password/route.ts
+
+- src/app/userData/ForgotPasswordUser/page.tsx
+- src/app/userData/ResetPassword/page.tsx
+- src/app/userData/VerificationEmailSent/page.tsx
+- src/app/userData/Verify-email/page.tsx
+
 ## Version 2
 
 ### Added the integration of Email with the team participents and projectManager
