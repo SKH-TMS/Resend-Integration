@@ -129,36 +129,36 @@ To send emails from your custom domain (e.g., `you@yourdomain.com`) using Resend
 
 1. Create Email Templates with the Help of React Email.
 
-- src/emails/PasswordResetEmail.tsx
-- src/emails/VerificationEmail.tsx
+    - src/emails/PasswordResetEmail.tsx
+    - src/emails/VerificationEmail.tsx
 
 2. Create a Email Sender file this will send the email to the Admin's Email.
 
-- src/utils/emaiSender.ts
+    - src/utils/emaiSender.ts
 
 3. Create a tokenGeneration file which will create a token.
 
-- src/utils/tokenUtils.ts
+    - src/utils/tokenUtils.ts
 
 4. Updating the Admin Model.
 
-- src/models/Admin.ts
+    - src/models/Admin.ts
 
 5. Combine all thsese in one file.
 
-- src/app/api/adminData/login_admin/route.ts
+    - src/app/api/adminData/login_admin/route.ts
   
 6. Routes and pages for all thse files.
 
-- src/app/api/adminData/forgot-password/route.ts
-- src/app/api/adminData/profile/change-password/route.ts
-- src/app/api/adminData/profile/update-info/route.ts
-- src/app/api/adminData/reset-password/route.ts
+    - src/app/api/adminData/forgot-password/route.ts
+    - src/app/api/adminData/profile/change-password/route.ts
+    - src/app/api/adminData/profile/update-info/route.ts
+    - src/app/api/adminData/reset-password/route.ts
 
-- src/app/adminData/ForgotPasswordAdmin/page.tsx
-- src/app/adminData/ResetPassword/page.tsx
-- src/app/adminData/VerificationEmailSent/page.tsx
-- src/app/adminData/Verify-email/page.tsx
+    - src/app/adminData/ForgotPasswordAdmin/page.tsx
+    - src/app/adminData/ResetPassword/page.tsx
+    - src/app/adminData/VerificationEmailSent/page.tsx
+    - src/app/adminData/Verify-email/page.tsx
 
 ## Version 1
 
@@ -174,36 +174,36 @@ To send emails from your custom domain (e.g., `you@yourdomain.com`) using Resend
 
 1. Create Email Templates with the Help of React Email.
 
-- src/emails/PasswordResetEmailUser.tsx
-- src/emails/VerificationEmailUser.tsx
+    - src/emails/PasswordResetEmailUser.tsx
+    - src/emails/VerificationEmailUser.tsx
 
 2. Create a Email Sender file this will send the email to the User's Email.
 
-- src/utils/emaiSender.ts
+    - src/utils/emaiSender.ts
 
 3. Create a tokenGeneration file which will create a token.
 
-- src/utils/tokenUtils.ts
+    - src/utils/tokenUtils.ts
 
 4. Updating the User Model.
 
-- src/models/User.ts
+    - src/models/User.ts
 
 5. Combine all thsese in one file.
 
-- src/app/api/userData/login_user/route.ts
+    - src/app/api/userData/login_user/route.ts
   
 6. Routes and pages for all thse files.
 
-- src/app/api/userData/forgot-password/route.ts
-- src/app/api/userData/profile/change-password/route.ts
-- src/app/api/userData/profile/update-info/route.ts
-- src/app/api/userData/reset-password/route.ts
+    - src/app/api/userData/forgot-password/route.ts
+    - src/app/api/userData/profile/change-password/route.ts
+    - src/app/api/userData/profile/update-info/route.ts
+    - src/app/api/userData/reset-password/route.ts
 
-- src/app/userData/ForgotPasswordUser/page.tsx
-- src/app/userData/ResetPassword/page.tsx
-- src/app/userData/VerificationEmailSent/page.tsx
-- src/app/userData/Verify-email/page.tsx
+    - src/app/userData/ForgotPasswordUser/page.tsx
+    - src/app/userData/ResetPassword/page.tsx
+    - src/app/userData/VerificationEmailSent/page.tsx
+    - src/app/userData/Verify-email/page.tsx
 
 ## Version 2
 
