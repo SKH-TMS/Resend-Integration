@@ -219,3 +219,6 @@ To send emails from your custom domain (e.g., `you@yourdomain.com`) using Resend
 ### Deployment ready
 - Now the Project is deployment Ready
 
+## Version 4
+- Fixed some Ui bugs
+- Fixed some routing bugs
