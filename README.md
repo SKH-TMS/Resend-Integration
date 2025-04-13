@@ -148,13 +148,14 @@ To send emails from your custom domain (e.g., `you@yourdomain.com`) using Resend
 
     - src/app/api/adminData/login_admin/route.ts
   
-6. Routes and pages for all thse files.
+6. Create routes and pages for all thse files.
 
+- Routes
     - src/app/api/adminData/forgot-password/route.ts
     - src/app/api/adminData/profile/change-password/route.ts
     - src/app/api/adminData/profile/update-info/route.ts
     - src/app/api/adminData/reset-password/route.ts
-
+- Pages
     - src/app/adminData/ForgotPasswordAdmin/page.tsx
     - src/app/adminData/ResetPassword/page.tsx
     - src/app/adminData/VerificationEmailSent/page.tsx
@@ -193,13 +194,14 @@ To send emails from your custom domain (e.g., `you@yourdomain.com`) using Resend
 
     - src/app/api/userData/login_user/route.ts
   
-6. Routes and pages for all thse files.
+6. Create routes and pages for all these files.
 
+- Routes
     - src/app/api/userData/forgot-password/route.ts
     - src/app/api/userData/profile/change-password/route.ts
     - src/app/api/userData/profile/update-info/route.ts
     - src/app/api/userData/reset-password/route.ts
-
+- Pages
     - src/app/userData/ForgotPasswordUser/page.tsx
     - src/app/userData/ResetPassword/page.tsx
     - src/app/userData/VerificationEmailSent/page.tsx
